@@ -1,0 +1,34 @@
+/* App.css */
+.App {
+  background-image: url('http://localhost:3000/pic.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Ensure no extra padding or margins affect layout */
+.container-fluid {
+  padding: 0;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Add this to ensure the background color is applied correctly */
+.projects-page {
+  background-color: #fddbf3;
+  min-height: 100vh; /* Ensure the background color covers the full height */
+}
